@@ -7,6 +7,9 @@
 # Inherit from RMX2061 device
 $(call inherit-product, device/realme/RMX2061/device.mk)
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
