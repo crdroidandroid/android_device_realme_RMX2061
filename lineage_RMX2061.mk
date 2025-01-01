@@ -41,3 +41,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=RMX2061 \
     SystemDevice=RMX2061 \
     SystemName=RMX2061
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# OMX
+TARGET_SUPPORTS_OMX_SERVICE := false
